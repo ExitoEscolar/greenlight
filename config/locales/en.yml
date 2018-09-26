@@ -160,6 +160,6 @@ en:
     accept_existing: Eu aceito os termos e condições
     title: Termos e condições
   test_install: >
-    This deployment is using a pre-configured testing server, you should replace this with your own.
-    For details, see the %{href}.
+    Esta implantação está usando um servidor de teste pré-configurado, você deve substitui-lo pelo seu próprio.
+    Para detalhes, veja o %{href}.
   update: Atualizar
