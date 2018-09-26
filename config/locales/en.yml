@@ -37,7 +37,7 @@ en:
       continue: Gostaria de continuar a usar 1.0.
       notice: >
         Êxito Escolar encontrou um erro de migração de dados.<br>
-        Isto pode ter ocorrido por não teres feito a atualização.
+        Isto pode ter ocorrido por não teres feito a atualização da Sala Virtual.
       upgrade: Mostre-me como atualizar para 2.0!
       version: Temos uma nova versão, mas o teu sistema não é compatível.
     not_found:
@@ -50,11 +50,11 @@ en:
   features:
     title: Caraterísticas
     rooms: Salas Personalizadas
-    recordings: Gestão da Gravação
+    recordings: Gravação de Aulas
     designs: Designs Personalizados
-    authentication: Autenticação de Utilizador
+    authentication: Autenticação de Explicador
   footer:
-    powered_by: Por %{href}.
+    powered_by: Desenvolvido por %{href}.
   go_back: Voltar
   greenlight: Êxito Escolar
   header:
@@ -66,15 +66,15 @@ en:
       signout: Sair
   home_room: Sala Virtual
   info_update_success: Informação atualizada com sucesso.
-  invalid_credentials: Erro devido a falha de credenciais. Tem a certeza que as introduziu corretamente?
+  invalid_credentials: Erro devido a credenciais. Tem a certeza que as introduziu corretamente?
   invite_message: "Para convidar alguém para esta Sala, envie este link:"
   landing:
     about: "%{href} Sala Virtual de Explicações Online em videoconferência interativa, com explicadores qualificados e experientes."
-    welcome: Bem-vindo(a) à Sala Virtual.
-    video: Video de demonstração
+    welcome: Bem-vindo(a) à Sala Virtual Êxito Escolar.
+    video: Assiste ao nosso tutorial sobre como utilizar a Sala Virtual
     upgrade: Mostre-me como atualizar!
-    version: Nós disponnibilzamos uma nova versão, mas a sua base de dados não é compatível.
-  ldap_error: Incapaz de conetar ao servidor LDAP. Por favor verifique as configurações LDAP no env file e assegure-se de que o seu servidor está a funcionar.
+    version: Nós disponibilizamos uma nova versão, mas a sua base de dados não é compatível.
+  ldap_error: Incapaz de conetar ao servidor LDAP. Por favor verifique as configurações LDAP no ficheiro env e assegure-se de que o seu servidor está a funcionar.
   login: Entrar
   modal:
     create_room: 
@@ -87,7 +87,7 @@ en:
       confirm: Tem a certeza que quer apagar a sua conta?
       delete: Tenho a certeza, apague a minha conta.
       keep: Afinal, quero manter a minha conta.
-      warning: Esta decisão é final. <b>Não poderá</b> recuperar dados associados à sua conta.
+      warning: Esta decisão é final. <b>Não</b> poderá recuperar dados associados à sua conta.
     delete_room:
       confirm: Tem a certeza que quer apagar a %{room}?
       delete: Tenho a certeza, apague esta Sala.
@@ -100,7 +100,7 @@ en:
   password: Password
   recording:
     email: Email de Gravação
-    no_recordings: Esta Sala não tem %{inject}Gravações.
+    no_recordings: Esta Sala ainda não tem %{inject}Gravações.
     recorded_on: Gravado em %{date}
     table:
       name: Nome
